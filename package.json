@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Stdio MCP server that lets local Claude run commands on a VPS over SSH (no more copy-pasting logs).",
   "main": "src/server.js",
+  "license": "MIT",
   "scripts": {
     "start": "node src/server.js",
     "selftest": "node src/server.js --selftest"
